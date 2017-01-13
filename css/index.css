@@ -1,0 +1,104 @@
+.nav{
+    width: 160px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #282D33;
+}
+.logo{
+    text-align: center;
+    margin-top: 50px;
+}
+.left-nav{
+    margin-top: 80px;
+}
+.left-nav li{
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color:#545253;
+}
+.left-nav li:nth-child(1){
+    background: url("../images/attack-img.png") no-repeat center 10px;
+}
+.left-nav li:nth-child(2){
+    background: url("../images/taskmanagement.png") no-repeat center 10px;
+}
+.left-nav li:nth-child(3){
+    background: url("../images/webset.png") no-repeat center 10px;
+}
+.left-nav li:nth-child(4){
+    background: url("../images/userinfo.png") no-repeat center 10px;
+}
+.nav .left-nav .attack-change{
+    background: url("../images/attack-change.png") no-repeat center 10px;
+    color: #6b9aff;
+    border-left:3px solid #6b9aff ;
+}
+
+.nav .left-nav .tack-change{
+    background: url("../images/task-change.png") no-repeat center 10px;
+    color: #6b9aff;
+    border-left:3px solid #6b9aff ;
+}
+
+
+.nav .left-nav .webset-change{
+    background: url("../images/webset-change.png") no-repeat center 10px;
+    color: #6b9aff;
+    border-left:3px solid #6b9aff ;
+}
+
+
+
+
+.nav .left-nav .user-change{
+    background: url("../images/user-change.png") no-repeat center 10px;
+    color: #6b9aff;
+    border-left:3px solid #6b9aff ;
+}
+.nav-buttom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.nav-buttom div:hover{
+    color: #6b9aff;
+}
+
+
+.shutdown{
+    width: 50%;
+    height: 80px;
+    float: left;
+    padding-top: 60px;
+    border-right:1px solid white;
+    background: url("../images/shutdown.png") no-repeat center 20px ;
+}
+.restart{
+    height: 80px;
+    width: 50%;
+    float: right;
+    margin-bottom: 10px;
+    padding-top: 60px;
+    background: url("../images/restart.png") no-repeat center 20px;
+}
+.login-out{
+    height: 100%;
+    padding-top: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+    clear: both;
+    background: url("../images/logout.png") no-repeat center 20px;
+}
+.main-content{
+    float: left;
+margin-left: 160px;
+}
